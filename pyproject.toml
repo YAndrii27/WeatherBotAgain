@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "weaterbot"
+version = "0.1.0"
+description = ""
+authors = ["YAndrii27 <AndriiYashchishen@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = {version = "^3.0.0", allow-prereleases = true}
+pycountry = "^22.3.5"
+envparse = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
